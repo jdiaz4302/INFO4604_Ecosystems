@@ -19,7 +19,7 @@ We gathered before and after images for 28 flooded locations. One image was used
 
 ![Flood style image](https://raw.githubusercontent.com/jdiaz4302/flood_style_transfer/master/README_images/flood_style.jpg)
 
-Artistic style transfer utilizes a pretrained convolutional neural network, therefore there is no "training"; parameters are not tuned, only hyperparameters (such as loss function tradeoff and neural style depth) are. We found the hyperparameter combinations which minimize the loss/error between output images and 20 post-fire images, then used this combination to evaluate performance on 7 test set images. The model-generated outputs of which are below.
+Artistic style transfer utilizes a pretrained convolutional neural network, therefore there is no "training"; parameters are not tuned, only hyperparameters (such as loss function tradeoff and neural style depth) are. We found the hyperparameter combinations which minimize the loss/error between output images and 20 post-flood images, then used this combination to evaluate performance on 7 test set images. The model-generated outputs of which are below.
 
 
 <img src="https://raw.githubusercontent.com/jdiaz4302/flood_style_transfer/master/README_images/21_content.jpg" height="250" width="250"><img src="https://raw.githubusercontent.com/jdiaz4302/flood_style_transfer/master/README_images/21_style.jpg" height="250" width="250"><img src="https://raw.githubusercontent.com/jdiaz4302/flood_style_transfer/master/README_images/output21.png" height="250" width="250">
